@@ -7,7 +7,7 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header class="px-24 py-5 border-y-2 border-[#882de1]">
+    <header class="px-10 md:px-24 py-5 border-y-2 border-[#882de1]">
       <h1 class="text-[#882de1] font-bold text-2xl">Globixo</h1>
     </header>
     <!-- Header End -->
@@ -16,9 +16,11 @@
     <main>
       <!-- Hero 1 Start -->
       <section
-        class="bg-[url('./images/hero.jpg')] bg-cover bg-no-repeat backdrop-blur flex text-white bg-center"
+        class="bg-[url('./images/hero.jpg')] bg-cover bg-no-repeat backdrop-blur flex flex-col md:flex-row text-white bg-center"
       >
-        <div class="hero-left backdrop-blur px-24 py-10 w-2/3 pb-32">
+        <div
+          class="hero-left backdrop-blur px-10 md:px-24 py-10 md:w-2/3 pb-32"
+        >
           <div class="first-row py-10 flex">
             <div class="flex">
               <img
@@ -26,7 +28,7 @@
                 alt="horse-logo"
                 class="w-16 rounded"
               />
-              <div class="pl-5">
+              <div class="pl-5 hidden md:block">
                 <p class="font-bold">Zoloni</p>
                 <small class="font-medium">Research & Development</small>
               </div>
@@ -37,7 +39,7 @@
                 alt="horse-logo"
                 class="w-16 rounded"
               />
-              <div class="pl-5">
+              <div class="pl-5 hidden md:block">
                 <p class="font-bold">Bharat Food Tech 2024</p>
                 <small class="font-medium">New Delhi, India</small>
               </div>
@@ -50,20 +52,31 @@
           </h2>
 
           <div class="py-8 text-[15px] text-gray-300">
-            <span class="ml-3">New Delhi, India</span
-            ><span class="ml-3">12th Jul 2024-15th July 2024</span
-            ><span class="ml-3">Hall-2, Booth 23</span>
+            <span class="md:ml-3"
+              >New Delhi, India <br class="md:hidden" /></span
+            ><span class="md:ml-3"
+              >12th Jul 2024-15th July 2024<br class="md:hidden" /></span
+            ><span class="md:ml-3">Hall-2, Booth 23</span>
           </div>
 
-          <button class="bg-[#8718f7] w-96 h-12 rounded">Contact Us</button>
+          <button
+            class="bg-[#8718f7] w-48 md:w-96 h-12 rounded hidden md:block"
+          >
+            Contact Us
+          </button>
+          <button class="bg-[#8718f7] w-60 md:w-96 h-12 rounded md:hidden">
+            Edit Exhibition Profile
+          </button>
         </div>
 
-        <div class="hero-right grow"></div>
+        <div class="hero-right grow hidden md:block"></div>
       </section>
       <!-- Hero 1 End -->
 
-      <section class="bg-[#f0ecff] flex pb-24">
-        <div class="left-column pl-24 w-[60%] relative -mt-14">
+      <section class="bg-[#f0ecff] flex flex-col md:flex-row pb-12 md:pb-24">
+        <div
+          class="left-column px-10 md:pl-24 md:pr-0 md:w-[60%] relative -mt-14"
+        >
           <div class="bg-white rounded-lg p-10">
             <h2 class="font-medium text-2xl">Company's Business</h2>
             <h3 class="font-medium mt-3">Company Type</h3>
@@ -231,9 +244,9 @@
           <!-- Files Section End-->
         </div>
 
-        <aside class="right-column w-[30%] ml-5">
+        <aside class="right-column md:w-[30%] mx-10 md:ml-5 md:mr-0">
           <!-- Address Component start -->
-          <div class="bg-white p-10 relative -mt-14 rounded-lg">
+          <div class="bg-white p-10 relative mt-5 md:-mt-14 rounded-lg">
             <h2 class="font-medium text-2xl">Exhibitor Contact</h2>
             <table class="mt-5 border-separate border-spacing-y-3">
               <tbody class="text-sm">
@@ -271,7 +284,7 @@
                 </tr>
               </tbody>
             </table>
-            <button class="bg-[#8718f7] w-96 h-12 rounded">Contact Us</button>
+            <button class="bg-[#8718f7] px-10 h-12 rounded">Contact Us</button>
           </div>
           <!-- Address Component End -->
 
@@ -407,7 +420,7 @@
     <!-- Main Section End -->
 
     <!--Footer Start-->
-    <footer class="px-24 py-6 bg-[#12002e]">
+    <footer class="px-10 md:px-24 py-6 bg-[#12002e]">
       <p class="text-center text-white">All Rights Reserved</p>
     </footer>
     <!-- Footer End -->
