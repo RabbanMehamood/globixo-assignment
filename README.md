@@ -1,3 +1,3 @@
 # Globixo Assignment
-<img src="https://ibb.co/2KTdMbh"/>
+<img src="https://ibb.co/2KTdMbh" alt="globixo"/>
 
