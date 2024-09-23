@@ -3,8 +3,16 @@
 
 <div align="center">
   <a href="https://ibb.co/2KTdMbh">
-    <img src="https://i.ibb.co/yQWFSvJ/globixo.png" alt="globixo">
+    <img src="src/images/Assignment-Desktop-View.png" alt="globixo">
   </a>
 </div>
 
-[Click here to view the image to website]([https://ibb.co/2KTdMbh](https://globixo-assignment.onrender.com/))
+# Website Link
+
+<div align="center">
+  <a href="https://globixo-assignment.onrender.com/">
+    Click Me to visit the website
+  </a>
+</div>
+
+
